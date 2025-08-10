@@ -1,0 +1,61 @@
+{
+  "model_name": "Random Forest",
+  "model_type": "RandomForestClassifier",
+  "training_date": "2025-08-11 00:16:03",
+  "performance_metrics": {
+    "accuracy": 0.902893380895759,
+    "precision": 0.983640081799591,
+    "recall": 0.66991643454039,
+    "f1_score": 0.7970173985086992,
+    "auc": 0.8855627744041235
+  },
+  "cv_performance": {
+    "mean_cv_score": 0.8960157786662724,
+    "std_cv_score": 0.005519425515382963
+  },
+  "feature_list": [
+    "Gender_Encoded",
+    "Age",
+    "Religion_Encoded",
+    "Nationality_Encoded",
+    "Major_Nationality_Encoded",
+    "Major_Religion_Encoded",
+    "HBA1C_Numeric",
+    "HBA1C_Test_Performed",
+    "HBA1C_Category_Encoded",
+    "HBA1C test Compliance_Encoded",
+    "Acute_flag",
+    "ER_flag_bef_chronic",
+    "# ER_befor_Chr",
+    "# IP_bef_chr",
+    "# OP_Bef_chr",
+    "Total_Healthcare_Visits",
+    "High_ER_Utilization",
+    "High_IP_Utilization",
+    "Atrial Fibrilation",
+    "Cancer",
+    "Cardio Vascular Disease",
+    "Perepheral Artery Disease",
+    "Renal Insufficiency",
+    "Heart Failure",
+    "Hypertension",
+    "Ischemic Heart Disease",
+    "Myocardial Infarction",
+    "Obesity",
+    "Stroke",
+    "Comorbidity",
+    "Total_Comorbidities",
+    "CV_Comorbidities",
+    "Severe_Comorbidities",
+    "Age_Risk",
+    "HBA1C_Risk",
+    "Comorbidity_Risk",
+    "Healthcare_Risk",
+    "Composite_Risk_Score"
+  ],
+  "target_variable": "Chronic_flag",
+  "data_preprocessing": {
+    "categorical_encoders": "label_encoders.pkl",
+    "feature_scaler": null
+  }
+}

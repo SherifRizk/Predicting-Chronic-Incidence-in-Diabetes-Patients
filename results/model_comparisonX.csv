@@ -1,0 +1,5 @@
+Model,Accuracy,Precision,Recall,F1-Score,AUC,CV_Mean,CV_Std
+Random Forest,0.9029,0.9836,0.6699,0.797,0.8856,0.896,0.0055
+Gradient Boosting,0.9013,0.9835,0.6643,0.793,0.8832,0.8965,0.0047
+Logistic Regression,0.8958,0.9452,0.6727,0.786,0.882,0.8893,0.0058
+SVM,0.9017,0.9835,0.6657,0.794,0.8649,0.894,0.0058

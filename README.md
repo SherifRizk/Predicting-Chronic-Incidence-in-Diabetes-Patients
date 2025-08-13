@@ -268,9 +268,9 @@ This project is designed for healthcare data scientists, clinicians, and researc
 
 ### 📞 Contact
 - **Author**: Sherif Rizk
-- **Email**: [Contact for collaboration]
-- **LinkedIn**: [Professional networking]
-- **GitHub**: [Repository and updates]
+- **Email**: [sherif.rizk12@gmail.com]
+- **LinkedIn**: [https://www.linkedin.com/in/sherif-ismaeil/]
+- **GitHub**: [https://github.com/SherifRizk]
 
 ### 📜 License
 This project is available under the MIT License. See LICENSE file for details.
